@@ -9,8 +9,7 @@ ensino de tecnologias. </p>
 <p align="center">
 <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;
 &nbsp;&nbsp;
-<a href="#-sprintsecurityjwt">SprintSecurityJWT</a>&nbsp;&nbsp;&nbsp;|&nbsp;
-&nbsp;&nbsp;
+<a href="#-sprintsecurityjwt">Sprint Security JWT</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
