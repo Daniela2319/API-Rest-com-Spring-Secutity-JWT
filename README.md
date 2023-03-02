@@ -11,7 +11,7 @@ ensino de tecnologias. </p>
 <p align="center">
 <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;
 &nbsp;&nbsp;
-<a href="#-descricaodoprojeto">Descrição do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;
+<a href="#-sprintsecurityjwt">Sprint Security JWT</a>&nbsp;&nbsp;&nbsp;|&nbsp;
 &nbsp;&nbsp;
 </p>
 
@@ -41,7 +41,7 @@ Projeto foi desenvolvido para mostra como se utilizar segurança no código, qua
 
 <br>
 
-## 📑 Descrisão do Projeto
+## 📑 Spring Security JWT
 
 ### Spring
 É considerado um framework confiável no ecossistema **Java** e é amplamente utilizado. 
