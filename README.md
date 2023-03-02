@@ -1,7 +1,5 @@
 
 
-Adicionando Segurança a uma API REST com Spring Security JWT
-
 <h1 align="center"> API REST com Spring Security JWT </h1>
 
 <p align= "center">
@@ -11,7 +9,7 @@ ensino de tecnologias. </p>
 <p align="center">
 <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;
 &nbsp;&nbsp;
-<a href="#-sprintsecurityjwt">Sprint Security JWT</a>&nbsp;&nbsp;&nbsp;|&nbsp;
+<a href="#-sprintsecurityjwt">SprintSecurityJWT</a>&nbsp;&nbsp;&nbsp;|&nbsp;
 &nbsp;&nbsp;
 </p>
 
