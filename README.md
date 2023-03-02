@@ -43,6 +43,14 @@ Projeto foi desenvolvido para mostra como se utilizar segurança no código, qua
 ### Spring
 É considerado um framework confiável no ecossistema **Java** e é amplamente utilizado. 
 
+## O que é JWT?
+
+JSON Web token (JWT) é um padrão para codificação de informações que podem ser transmitidas com segurança como um objeto JSON.
+
+Como funciona o Spring Security ao expomos uma API POST pública para a autenticação, e ao passar as credenciais corretas, irá gerar um JWT. Se um usuário tentar
+acessar a API protegida, ela permitirá o acesso somente se uma solicitação tiver um JWT válido. A validação acontecerá no filtro cadastrado na cadeia de filtros do 
+Spring Security.
+
 ### Spring Security
 Que é uma estrutura de autenticação e autorização poderosa e personalizável. Ele é considerado o padrão de fato para proteger aplicativos baseados em Spring.
 
@@ -52,14 +60,31 @@ uma senha ao fazer login em um site. Pode se pensar como uma resposta à pergunt
 * **Autorização** refere-se ao processo de determinar se um usuário tem permissão adequada para executar uma ação específica ou ler dados específicos, supondo que o
 usuário seja autenticado com sucesso. Pergunta _Um usuário pode fazer/ler isso?_.
 
+<br>
+
+## Como uso o Spring Security com a API REST
+
+Pronto para uso, o Spring Security vem com autenticação baseada em sessão, que é útil para aplicativos da Web MVC clássicos, mas podemos configurá-lo para
+oferecer suporte à autenticação sem estado baseado em JWT para APIs REST.
+
 ## Autenticação usando JWT com Spring Security
 
 Para usa o Spring Serurity para JWT, precisa - se de uma classe de configuração anotada com ` @EnableWebSecurity ` anotação em nosso caminho de classe. Além disso,
 para simplificar o processo de personalização, a estrutura expõe um ` WebSecurityConfigurerAdapter ` classe. 
 
+## Quão seguro é o Spring Security?
+
+O Spring Security é bastante seguro. Ele se integra facilmente com aplicativos baseados em Spring, oferece suporte a muitos tipos de autenticação prontos para uso
+e é capaz de programação de segurança declarativa.
+
+## Por que o Spring Security é usado?
+
+Porque ele se integra perfeitamente com outros ecossistemas Spring, e muitos desenvolvedores preferem reutilizar a soluções existentes em vez de reinventar a roda.
+
+
 <br>
 
-## :memo: 
+
 
 
 
