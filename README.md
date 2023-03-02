@@ -52,6 +52,10 @@ uma senha ao fazer login em um site. Pode se pensar como uma resposta à pergunt
 * **Autorização** refere-se ao processo de determinar se um usuário tem permissão adequada para executar uma ação específica ou ler dados específicos, supondo que o
 usuário seja autenticado com sucesso. Pergunta _Um usuário pode fazer/ler isso?_.
 
+## Autenticação usando JWT com Spring Security
+
+Para usa o Spring Serurity para JWT, precisa - se de uma classe de configuração anotada com ` @EnableWebSecurity ` anotação em nosso caminho de classe. Além disso,
+para simplificar o processo de personalização, a estrutura expõe um ` WebSecurityConfigurerAdapter ` classe. 
 
 <br>
 
